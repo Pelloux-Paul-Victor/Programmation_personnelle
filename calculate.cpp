@@ -8,7 +8,6 @@ int main(){
     int somme = 0;
     int total = 0;
     int total2 = 0;
-
     cout << "Choisir type calcule : \n";
     cout << "   1 - somme\n";
     cout << "   2 - soustraction\n";
@@ -39,10 +38,11 @@ int main(){
             }
             nb_nombre--;
         }
-    }else{
+    } else {
         cout << "Erreur de saisie...";
     }
     cout << somme;
     return somme;
 
 }
+
