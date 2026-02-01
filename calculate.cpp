@@ -7,7 +7,7 @@ int main(){
     int nb_nombre = 0;
     int somme = 0;
     int total = 0;
-    int total2;
+    int total2 = 0;
 
     cout << "Choisir type calcule : \n";
     cout << "   1 - somme\n";
@@ -22,7 +22,6 @@ int main(){
         cout << "Combient de nombre a saisir ? ";
         cin >> nb_nombre;
     }
-
 
     if (choix != 0){
         while (nb_nombre != 0){
@@ -45,4 +44,5 @@ int main(){
     }
     cout << somme;
     return somme;
+
 }
